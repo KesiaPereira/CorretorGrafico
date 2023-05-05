@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+	<title>Corretor Ortográfico</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <script src="script.js"></script>
+
+ <div class="main">
+  <img src="topo_ifpi_picos.png" alt="IFPI logo">
+  <div>
+  <label for="textI">TEXTO I:</label><br>
+  <input placeholder="Insira o texto aqui..." class="bar" type="text" id="t1">
+  </div>
+    
+  <div>
+  <label for="textII">TEXTO II:</label><br>
+  <input placeholder="Insira o texto aqui..." class="bar" type="text" id="t2">
+  </div>
+  
+	<div class="dropdown">
+	  <select class="dropdown-content" required>
+      <option value="" disabled selected hidden>Tipo de Erro (selecione uma opção)...</option>
+      <option value="pontuacao">Pontuação</option>
+      <option value="ortografia">Ortografia</option>
+      <option value="acentuacao">Acentuação</option>
+      <option value="sintaxe">Sintaxe</option>
+      <option value="concordancia">Concordância</option>
+      <option value="regencia">Regência</option>
+    </select>
+	</div>
+    <button class="submit" type="submit" if="butao">ENVIAR</button>
+</div>
+    
+</body>
+</html>
